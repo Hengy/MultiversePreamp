@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3258,48 +3258,48 @@ Source: www.vishay.com .. rwm.pdf</description>
 <instance part="X1" gate="-2" x="-20.32" y="53.34"/>
 <instance part="X2" gate="-1" x="40.64" y="53.34" rot="R180"/>
 <instance part="X2" gate="-2" x="40.64" y="68.58" rot="R180"/>
-<instance part="L1" gate="G$1" x="-5.08" y="68.58" rot="R180"/>
-<instance part="X3" gate="-1" x="27.94" y="68.58"/>
-<instance part="X3" gate="-2" x="12.7" y="68.58" rot="R180"/>
-<instance part="R1" gate="G$1" x="5.08" y="60.96" rot="R90"/>
+<instance part="L1" gate="G$1" x="22.86" y="68.58" rot="R180"/>
+<instance part="X3" gate="-1" x="7.62" y="68.58"/>
+<instance part="X3" gate="-2" x="-7.62" y="68.58" rot="R180"/>
+<instance part="R1" gate="G$1" x="33.02" y="60.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VIN" class="0">
-<segment>
-<pinref part="X1" gate="-1" pin="KL"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="KL"/>
 <pinref part="X2" gate="-1" pin="KL"/>
-<wire x1="-15.24" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<junction x="5.08" y="53.34"/>
+<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
+<junction x="33.02" y="53.34"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="X3" gate="-2" pin="KL"/>
-<wire x1="2.54" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="66.04" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
-<junction x="5.08" y="68.58"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="X3" gate="-1" pin="KL"/>
+<wire x1="33.02" y1="66.04" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="X2" gate="-2" pin="KL"/>
 <wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<junction x="33.02" y="68.58"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="X1" gate="-1" pin="KL"/>
+<pinref part="X3" gate="-2" pin="KL"/>
+<wire x1="-15.24" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VTHRU" class="0">
+<segment>
+<pinref part="X3" gate="-1" pin="KL"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
