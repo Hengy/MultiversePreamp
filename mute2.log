@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Matt\Documents\GitHub\MultiversePreamp\mute2.asc
+
+.OP point found by inspection.
+
+Date: Sat Apr 25 10:20:40 2015
+Total elapsed time: 0.107 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9344
+traniter = 9344
+tranpoints = 3340
+accept = 2457
+rejected = 883
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 264 bytes object code size  0.5/0.1/[0.0]
+Matrix Compiler2: 560 bytes object code size  0.1/0.1/[0.0]
+
+

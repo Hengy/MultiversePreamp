@@ -3288,14 +3288,14 @@ Source: www.vishay.com .. rwm.pdf</description>
 <junction x="33.02" y="68.58"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
 <pinref part="X3" gate="-2" pin="KL"/>
 <wire x1="-15.24" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VTHRU" class="0">
 <segment>
 <pinref part="X3" gate="-1" pin="KL"/>
 <pinref part="L1" gate="G$1" pin="2"/>

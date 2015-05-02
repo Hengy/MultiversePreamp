@@ -3266,14 +3266,14 @@ Source: www.vishay.com .. rwm.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="KL"/>
 <pinref part="X2" gate="-1" pin="KL"/>
@@ -3284,7 +3284,7 @@ Source: www.vishay.com .. rwm.pdf</description>
 <junction x="5.08" y="53.34"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="X3" gate="-2" pin="KL"/>

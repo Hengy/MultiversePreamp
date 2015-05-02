@@ -2,8 +2,8 @@ Circuit: * C:\Users\Matt\Documents\GitHub\MultiversePreamp\PS.asc
 
 .OP point found by inspection.
 
-Date: Sat Apr 18 00:25:08 2015
-Total elapsed time: 0.487 seconds.
+Date: Sun Apr 26 10:54:07 2015
+Total elapsed time: 0.541 seconds.
 
 tnom = 27
 temp = 27
@@ -16,7 +16,7 @@ rejected = 407
 matrix size = 13
 fillins = 4
 solver = Normal
-Matrix Compiler1: 1004 bytes object code size  0.5/0.2/[0.1]
-Matrix Compiler2: 1.06 KB object code size  0.2/0.2/[0.2]
+Matrix Compiler1: 1004 bytes object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 1.06 KB object code size  0.3/0.4/[0.2]
 
 

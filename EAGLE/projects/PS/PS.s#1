@@ -3473,7 +3473,7 @@ Source: www.vishay.com .. rwm.pdf</description>
 <junction x="33.02" y="68.58"/>
 </segment>
 </net>
-<net name="VTHRU" class="0">
+<net name="VCAPS" class="0">
 <segment>
 <pinref part="X3" gate="-1" pin="KL"/>
 <pinref part="L1" gate="G$1" pin="2"/>
@@ -3492,7 +3492,7 @@ Source: www.vishay.com .. rwm.pdf</description>
 <wire x1="-15.24" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="J2" gate="1" pin="2"/>
 <wire x1="-27.94" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3431,6 +3431,7 @@ Source: www.vishay.com .. rwm.pdf</description>
 <part name="R1" library="resistor-power" deviceset="R" device="AC04"/>
 <part name="J1" library="jumper" deviceset="J" device="10MM"/>
 <part name="J2" library="jumper" deviceset="J" device="10MM"/>
+<part name="X4" library="con-wago-508" deviceset="W237-02P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3447,6 +3448,8 @@ Source: www.vishay.com .. rwm.pdf</description>
 <instance part="R1" gate="G$1" x="33.02" y="60.96" rot="R90"/>
 <instance part="J1" gate="1" x="-22.86" y="68.58"/>
 <instance part="J2" gate="1" x="-22.86" y="60.96" rot="R180"/>
+<instance part="X4" gate="-1" x="-20.32" y="83.82" rot="R270"/>
+<instance part="X4" gate="-2" x="-25.4" y="83.82" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3490,6 +3493,10 @@ Source: www.vishay.com .. rwm.pdf</description>
 <junction x="-15.24" y="68.58"/>
 <pinref part="J2" gate="1" pin="1"/>
 <wire x1="-15.24" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="68.58" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-1" pin="KL"/>
+<wire x1="-15.24" y1="76.2" x2="-20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="76.2" x2="-20.32" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3502,6 +3509,10 @@ Source: www.vishay.com .. rwm.pdf</description>
 <pinref part="X1" gate="-1" pin="KL"/>
 <wire x1="-30.48" y1="68.58" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-30.48" y="68.58"/>
+<wire x1="-30.48" y1="68.58" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-2" pin="KL"/>
+<wire x1="-30.48" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="76.2" x2="-25.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
