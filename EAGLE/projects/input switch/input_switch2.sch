@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13248,8 +13248,8 @@ wave soldering</description>
 </class>
 </classes>
 <parts>
-<part name="L_1" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R_1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="LEFT1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="RIGHT1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="+15V" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C9" library="rcl" deviceset="CPOL-US" device="E2-5"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -13274,14 +13274,14 @@ wave soldering</description>
 <part name="R5_1" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="C6_1" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="C5_1" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
-<part name="R8_1" library="rcl" deviceset="R-US_" device="R1206" value="220k"/>
-<part name="R9_1" library="rcl" deviceset="R-US_" device="R1206" value="220k"/>
+<part name="R8_1" library="rcl" deviceset="R-US_" device="R1206" value="330k"/>
+<part name="R9_1" library="rcl" deviceset="R-US_" device="R1206" value="330k"/>
 <part name="D1" library="diode" deviceset="ES2D" device=""/>
 <part name="R7_1" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
 <part name="Q1" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
 <part name="RLY_CTRL" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="L_2" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R_2" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="LEFT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="RIGHT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R1_2" library="rcl" deviceset="R-US_" device="0207/7" value="100"/>
 <part name="R2_2" library="rcl" deviceset="R-US_" device="0207/7" value="100"/>
 <part name="R3_2" library="rcl" deviceset="R-US_" device="0207/7" value="220k"/>
@@ -13297,15 +13297,15 @@ wave soldering</description>
 <part name="C6_2" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="C5_2" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="RELAY2" library="ic-package" deviceset="DIL10" device=""/>
-<part name="R8_2" library="rcl" deviceset="R-US_" device="R1206" value="220k"/>
-<part name="R9_2" library="rcl" deviceset="R-US_" device="R1206" value="220k"/>
+<part name="R8_2" library="rcl" deviceset="R-US_" device="R1206" value="330k"/>
+<part name="R9_2" library="rcl" deviceset="R-US_" device="R1206" value="330k"/>
 <part name="D2" library="diode" deviceset="ES2D" device=""/>
 <part name="R7_2" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
 <part name="Q2" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
-<part name="A_OUT_1" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="OUT1" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="C1206"/>
 <part name="C11" library="rcl" deviceset="CPOL-US" device="E2-5"/>
-<part name="A_OUT_2" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="OUT2" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="RELAY1" library="ic-package" deviceset="DIL10" device=""/>
 <part name="U1" library="ne5532" deviceset="NE5532P" device=""/>
 <part name="U2" library="ne5532" deviceset="NE5532P" device=""/>
@@ -13340,16 +13340,16 @@ wave soldering</description>
 <plain>
 </plain>
 <instances>
-<instance part="L_1" gate="G$1" x="-7.62" y="106.68" rot="R90"/>
-<instance part="R_1" gate="G$1" x="7.62" y="106.68" rot="R90"/>
+<instance part="LEFT1" gate="G$1" x="-7.62" y="106.68" rot="R90"/>
+<instance part="RIGHT1" gate="G$1" x="7.62" y="106.68" rot="R90"/>
 <instance part="+15V" gate="G$1" x="-63.5" y="96.52" rot="R180"/>
 <instance part="C9" gate="G$1" x="-68.58" y="73.66"/>
 <instance part="GND11" gate="1" x="-68.58" y="60.96"/>
 <instance part="C8" gate="G$1" x="-78.74" y="73.66"/>
-<instance part="GND12" gate="1" x="-48.26" y="73.66"/>
+<instance part="GND12" gate="1" x="-45.72" y="73.66"/>
 <instance part="-15V" gate="G$1" x="-60.96" y="30.48" rot="MR180"/>
 <instance part="GND13" gate="1" x="-60.96" y="-5.08" rot="MR0"/>
-<instance part="GND14" gate="1" x="-78.74" y="7.62" rot="MR0"/>
+<instance part="GND14" gate="1" x="-81.28" y="7.62" rot="MR0"/>
 <instance part="P+3" gate="1" x="-78.74" y="83.82"/>
 <instance part="P-3" gate="1" x="-40.64" y="7.62" rot="MR0"/>
 <instance part="R1_1" gate="G$1" x="-10.16" y="81.28" rot="R90"/>
@@ -13372,8 +13372,8 @@ wave soldering</description>
 <instance part="R7_1" gate="G$1" x="45.72" y="73.66" rot="R90"/>
 <instance part="Q1" gate="G$1" x="50.8" y="66.04" rot="MR180"/>
 <instance part="RLY_CTRL" gate="A" x="71.12" y="99.06" rot="R90"/>
-<instance part="L_2" gate="G$1" x="142.24" y="106.68" rot="R90"/>
-<instance part="R_2" gate="G$1" x="157.48" y="106.68" rot="R90"/>
+<instance part="LEFT2" gate="G$1" x="142.24" y="106.68" rot="R90"/>
+<instance part="RIGHT2" gate="G$1" x="157.48" y="106.68" rot="R90"/>
 <instance part="R1_2" gate="G$1" x="139.7" y="81.28" rot="R90"/>
 <instance part="R2_2" gate="G$1" x="154.94" y="81.28" rot="R90"/>
 <instance part="R3_2" gate="G$1" x="132.08" y="66.04" rot="R90"/>
@@ -13394,10 +13394,10 @@ wave soldering</description>
 <instance part="D2" gate="G$1" x="101.6" y="55.88" rot="R180"/>
 <instance part="R7_2" gate="G$1" x="99.06" y="73.66" rot="R90"/>
 <instance part="Q2" gate="G$1" x="104.14" y="66.04" rot="MR180"/>
-<instance part="A_OUT_1" gate="A" x="63.5" y="33.02" rot="R90"/>
+<instance part="OUT1" gate="A" x="63.5" y="33.02" rot="R90"/>
 <instance part="C10" gate="G$1" x="-60.96" y="5.08" rot="MR180"/>
 <instance part="C11" gate="G$1" x="-71.12" y="5.08" rot="MR180"/>
-<instance part="A_OUT_2" gate="A" x="76.2" y="33.02" rot="R90"/>
+<instance part="OUT2" gate="A" x="76.2" y="33.02" rot="R90"/>
 <instance part="RELAY1" gate="G$1" x="43.18" y="27.94"/>
 <instance part="U1" gate="A" x="-5.08" y="20.32"/>
 <instance part="U2" gate="A" x="144.78" y="20.32" rot="MR0"/>
@@ -13447,8 +13447,8 @@ wave soldering</description>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="+15V" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="76.2" x2="-48.26" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="96.52" x2="-60.96" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="76.2" x2="-45.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="96.52" x2="-60.96" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -13466,8 +13466,8 @@ wave soldering</description>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="-15V" gate="G$1" pin="2"/>
-<wire x1="-78.74" y1="10.16" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="30.48" x2="-63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="10.16" x2="-81.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="30.48" x2="-63.5" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -13543,14 +13543,14 @@ wave soldering</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R_1" gate="G$1" pin="1"/>
+<pinref part="RIGHT1" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="86.36" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R2_1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="L_1" gate="G$1" pin="1"/>
+<pinref part="LEFT1" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="86.36" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R1_1" gate="G$1" pin="2"/>
 </segment>
@@ -13649,14 +13649,14 @@ wave soldering</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R_2" gate="G$1" pin="1"/>
+<pinref part="RIGHT2" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="86.36" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R2_2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="L_2" gate="G$1" pin="1"/>
+<pinref part="LEFT2" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="86.36" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R1_2" gate="G$1" pin="2"/>
 </segment>
@@ -13795,7 +13795,7 @@ wave soldering</description>
 <wire x1="30.48" y1="22.86" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="17.78" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="A_OUT_1" gate="A" pin="3"/>
+<pinref part="OUT1" gate="A" pin="3"/>
 <pinref part="RELAY1" gate="G$1" pin="4"/>
 <wire x1="30.48" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
@@ -13808,7 +13808,7 @@ wave soldering</description>
 <wire x1="106.68" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="17.78" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="A_OUT_2" gate="A" pin="1"/>
+<pinref part="OUT2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -13902,7 +13902,7 @@ wave soldering</description>
 <net name="N$28" class="0">
 <segment>
 <pinref part="RELAY2" gate="G$1" pin="4"/>
-<pinref part="A_OUT_2" gate="A" pin="3"/>
+<pinref part="OUT2" gate="A" pin="3"/>
 <wire x1="88.9" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="22.86" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -13939,7 +13939,7 @@ wave soldering</description>
 <net name="N$14" class="0">
 <segment>
 <pinref part="RELAY1" gate="G$1" pin="7"/>
-<pinref part="A_OUT_1" gate="A" pin="1"/>
+<pinref part="OUT1" gate="A" pin="1"/>
 <wire x1="50.8" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="22.86" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -14036,9 +14036,9 @@ wave soldering</description>
 <pinref part="AGND8" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="A_OUT_2" gate="A" pin="2"/>
+<pinref part="OUT2" gate="A" pin="2"/>
 <wire x1="76.2" y1="30.48" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="A_OUT_1" gate="A" pin="2"/>
+<pinref part="OUT1" gate="A" pin="2"/>
 <wire x1="63.5" y1="30.48" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="10.16" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
@@ -14080,7 +14080,7 @@ wave soldering</description>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="L_1" gate="G$1" pin="2"/>
+<pinref part="LEFT1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="88.9" x2="-7.62" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="88.9" x2="-7.62" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="RGND2" gate="G$1" pin="2"/>
@@ -14089,7 +14089,7 @@ wave soldering</description>
 <net name="N$36" class="0">
 <segment>
 <pinref part="RGND1" gate="G$1" pin="2"/>
-<pinref part="R_1" gate="G$1" pin="2"/>
+<pinref part="RIGHT1" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="96.52" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -14097,14 +14097,14 @@ wave soldering</description>
 <net name="N$42" class="0">
 <segment>
 <pinref part="RGND3" gate="G$1" pin="2"/>
-<pinref part="R_2" gate="G$1" pin="2"/>
+<pinref part="RIGHT2" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="96.52" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="L_2" gate="G$1" pin="2"/>
+<pinref part="LEFT2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="88.9" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="RGND4" gate="G$1" pin="2"/>
