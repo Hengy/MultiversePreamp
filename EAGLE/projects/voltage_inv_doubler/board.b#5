@@ -143,6 +143,10 @@ Doubler</text>
 <text x="6.35" y="21.59" size="1.016" layer="22" rot="MR270">LM2662</text>
 <text x="43.18" y="36.83" size="1.016" layer="21" rot="R270">LM2662</text>
 <text x="43.18" y="21.59" size="1.016" layer="21" rot="R270">LM2662</text>
+<text x="26.035" y="3.175" size="1.016" layer="21">GND</text>
+<text x="21.59" y="40.64" size="1.016" layer="21" rot="R90">GND</text>
+<text x="29.21" y="41.91" size="1.016" layer="21" rot="R90">V+</text>
+<text x="21.59" y="3.175" size="1.016" layer="21">V-</text>
 </plain>
 <libraries>
 <library name="pinhead">

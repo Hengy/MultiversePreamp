@@ -137,6 +137,8 @@ Doubler</text>
 <text x="40.64" y="14.605" size="1.016" layer="21">47u</text>
 <text x="10.16" y="24.13" size="1.016" layer="22" rot="MR0">100u</text>
 <text x="39.37" y="27.94" size="1.016" layer="21">100u</text>
+<text x="39.37" y="9.525" size="1.016" layer="21">C9</text>
+<text x="8.255" y="9.525" size="1.016" layer="21">C17</text>
 </plain>
 <libraries>
 <library name="pinhead">

@@ -10827,8 +10827,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528-KIT" value="47u"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528-KIT" value="47u"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528-KIT" value="47u"/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
-<part name="C5" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
+<part name="C5" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343" value="100u"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343" value="100u"/>
 </parts>

@@ -10796,14 +10796,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U1" library="lm2663" deviceset="LM2663M" device=""/>
 <part name="U2" library="lm2663" deviceset="LM2663M" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
-<part name="C8" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SJ2" library="jumper" deviceset="SJ" device=""/>
@@ -10813,14 +10811,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U3" library="lm2663" deviceset="LM2663M" device=""/>
 <part name="U4" library="lm2663" deviceset="LM2663M" device=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
-<part name="C12" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SJ4" library="jumper" deviceset="SJ" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
-<part name="C16" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="47u Tal"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -10846,14 +10842,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U1" gate="A" x="43.18" y="45.72"/>
 <instance part="U2" gate="A" x="109.22" y="60.96"/>
 <instance part="C3" gate="G$1" x="12.7" y="58.42" rot="R270"/>
-<instance part="C4" gate="G$1" x="12.7" y="50.8" rot="R270"/>
 <instance part="C5" gate="G$1" x="68.58" y="48.26"/>
 <instance part="GND5" gate="1" x="73.66" y="35.56"/>
 <instance part="GND6" gate="1" x="22.86" y="27.94"/>
 <instance part="SJ1" gate="1" x="0" y="50.8" rot="R90"/>
 <instance part="GND7" gate="1" x="78.74" y="66.04"/>
 <instance part="C7" gate="G$1" x="81.28" y="83.82" rot="R270"/>
-<instance part="C8" gate="G$1" x="81.28" y="76.2" rot="R270"/>
 <instance part="C9" gate="G$1" x="132.08" y="63.5"/>
 <instance part="GND8" gate="1" x="132.08" y="53.34"/>
 <instance part="SJ2" gate="1" x="53.34" y="68.58" rot="R180"/>
@@ -10863,14 +10857,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U3" gate="A" x="43.18" y="-17.78"/>
 <instance part="U4" gate="A" x="109.22" y="-2.54"/>
 <instance part="C11" gate="G$1" x="12.7" y="-5.08" rot="R270"/>
-<instance part="C12" gate="G$1" x="12.7" y="-12.7" rot="R270"/>
 <instance part="C13" gate="G$1" x="68.58" y="-15.24"/>
 <instance part="GND2" gate="1" x="73.66" y="-27.94"/>
 <instance part="GND3" gate="1" x="22.86" y="-35.56"/>
 <instance part="SJ4" gate="1" x="0" y="-12.7" rot="R90"/>
 <instance part="GND11" gate="1" x="78.74" y="2.54"/>
 <instance part="C15" gate="G$1" x="81.28" y="20.32" rot="R270"/>
-<instance part="C16" gate="G$1" x="81.28" y="12.7" rot="R270"/>
 <instance part="C17" gate="G$1" x="132.08" y="0"/>
 <instance part="GND12" gate="1" x="132.08" y="-10.16"/>
 <instance part="GND13" gate="1" x="147.32" y="17.78"/>
@@ -10999,7 +10991,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="U1" gate="A" pin="CAP+"/>
 <wire x1="17.78" y1="50.8" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="15.24" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="17.78" y="50.8"/>
 </segment>
@@ -11012,7 +11003,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="U1" gate="A" pin="CAP-"/>
 <wire x1="5.08" y1="50.8" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="-"/>
 <wire x1="7.62" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
 <junction x="5.08" y="50.8"/>
 </segment>
@@ -11051,7 +11041,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="83.82" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 <junction x="86.36" y="76.2"/>
@@ -11064,7 +11053,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="83.82" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="-"/>
 <wire x1="76.2" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="CAP-"/>
 <wire x1="91.44" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
@@ -11157,7 +11145,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="U3" gate="A" pin="CAP+"/>
 <wire x1="17.78" y1="-12.7" x2="17.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="15.24" y1="-12.7" x2="17.78" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="17.78" y="-12.7"/>
 </segment>
@@ -11170,7 +11157,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="U3" gate="A" pin="CAP-"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="7.62" y1="-12.7" x2="5.08" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="5.08" y="-12.7"/>
 </segment>
@@ -11209,7 +11195,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="C15" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="20.32" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="12.7" x2="86.36" y2="0" width="0.1524" layer="91"/>
 <junction x="86.36" y="12.7"/>
@@ -11222,7 +11207,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="C15" gate="G$1" pin="-"/>
 <wire x1="76.2" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="-"/>
 <wire x1="76.2" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="CAP-"/>
 <wire x1="91.44" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>

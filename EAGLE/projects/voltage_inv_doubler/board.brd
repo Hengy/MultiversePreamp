@@ -128,16 +128,16 @@
 <text x="21.59" y="22.86" size="0.8128" layer="21">Voltage
 Inverter &amp;
 Doubler</text>
-<text x="15.24" y="39.37" size="1.016" layer="21">150KHz</text>
+<text x="20.32" y="39.37" size="1.016" layer="22" rot="MR0">150KHz</text>
 <text x="29.21" y="39.37" size="1.016" layer="21">150KHz</text>
 <text x="33.655" y="22.225" size="1.016" layer="21" rot="R90">150KHz</text>
-<text x="17.145" y="22.225" size="1.016" layer="21" rot="R90">150KHz</text>
-<text x="6.35" y="14.605" size="1.016" layer="21">47u</text>
+<text x="15.875" y="22.225" size="1.016" layer="22" rot="MR90">150KHz</text>
+<text x="8.89" y="14.605" size="1.016" layer="22" rot="MR0">47u</text>
 <text x="40.64" y="14.605" size="1.016" layer="21">47u</text>
 <text x="10.16" y="24.13" size="1.016" layer="22" rot="MR0">100u</text>
 <text x="39.37" y="27.94" size="1.016" layer="21">100u</text>
 <text x="39.37" y="9.525" size="1.016" layer="21">C9</text>
-<text x="8.255" y="9.525" size="1.016" layer="21">C17</text>
+<text x="10.795" y="9.525" size="1.016" layer="22" rot="MR0">C17</text>
 <text x="6.35" y="37.465" size="1.016" layer="22" rot="MR270">LM2662</text>
 <text x="6.35" y="22.225" size="1.016" layer="22" rot="MR270">LM2662</text>
 <text x="43.18" y="37.465" size="1.016" layer="21" rot="R270">LM2662</text>

@@ -125,9 +125,8 @@
 <hole x="46.99" y="2.54" drill="3.2"/>
 <hole x="2.54" y="2.54" drill="3.2"/>
 <text x="16.51" y="12.065" size="1.016" layer="21">Matthew Hengeveld 2015</text>
-<text x="22.225" y="22.225" size="1.016" layer="21">Voltage
-Inverter
-     &amp;
+<text x="21.59" y="22.86" size="1.016" layer="21">Voltage
+Inverter &amp;
 Doubler</text>
 <text x="15.24" y="39.37" size="1.016" layer="21">150KHz</text>
 <text x="29.21" y="39.37" size="1.016" layer="21">150KHz</text>
@@ -139,10 +138,10 @@ Doubler</text>
 <text x="39.37" y="27.94" size="1.016" layer="21">100u</text>
 <text x="39.37" y="9.525" size="1.016" layer="21">C9</text>
 <text x="8.255" y="9.525" size="1.016" layer="21">C17</text>
-<text x="6.35" y="36.83" size="1.016" layer="22" rot="MR270">LM2662</text>
-<text x="6.35" y="21.59" size="1.016" layer="22" rot="MR270">LM2662</text>
-<text x="43.18" y="36.83" size="1.016" layer="21" rot="R270">LM2662</text>
-<text x="43.18" y="21.59" size="1.016" layer="21" rot="R270">LM2662</text>
+<text x="6.35" y="37.465" size="1.016" layer="22" rot="MR270">LM2662</text>
+<text x="6.35" y="22.225" size="1.016" layer="22" rot="MR270">LM2662</text>
+<text x="43.18" y="37.465" size="1.016" layer="21" rot="R270">LM2662</text>
+<text x="43.18" y="22.225" size="1.016" layer="21" rot="R270">LM2662</text>
 <text x="25.4" y="3.175" size="1.016" layer="21">GND</text>
 <text x="21.59" y="41.275" size="1.016" layer="21" rot="R90">GND</text>
 <text x="29.21" y="41.91" size="1.016" layer="21" rot="R90">V+</text>

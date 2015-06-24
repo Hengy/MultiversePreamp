@@ -139,6 +139,10 @@ Doubler</text>
 <text x="39.37" y="27.94" size="1.016" layer="21">100u</text>
 <text x="39.37" y="9.525" size="1.016" layer="21">C9</text>
 <text x="8.255" y="9.525" size="1.016" layer="21">C17</text>
+<text x="6.35" y="36.83" size="1.016" layer="22" rot="MR270">LM2662</text>
+<text x="6.35" y="21.59" size="1.016" layer="22" rot="MR270">LM2662</text>
+<text x="43.18" y="36.83" size="1.016" layer="21" rot="R270">LM2662</text>
+<text x="43.18" y="21.59" size="1.016" layer="21" rot="R270">LM2662</text>
 </plain>
 <libraries>
 <library name="pinhead">

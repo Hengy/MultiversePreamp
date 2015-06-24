@@ -10830,6 +10830,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C6" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
 <part name="C10" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100u"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP_POL" device="7343"/>
 </parts>
 <sheets>
 <sheet>
@@ -10876,6 +10880,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C1" gate="G$1" x="78.74" y="48.26"/>
 <instance part="C6" gate="G$1" x="78.74" y="-15.24"/>
 <instance part="C10" gate="G$1" x="132.08" y="22.86"/>
+<instance part="C4" gate="G$1" x="81.28" y="76.2" rot="R270"/>
+<instance part="C8" gate="G$1" x="12.7" y="50.8" rot="R270"/>
+<instance part="C12" gate="G$1" x="12.7" y="-12.7" rot="R270"/>
+<instance part="C14" gate="G$1" x="81.28" y="12.7" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -10993,6 +11001,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="17.78" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="17.78" y="50.8"/>
+<pinref part="C8" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -11005,6 +11014,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="5.08" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
 <junction x="5.08" y="50.8"/>
+<pinref part="C8" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11046,6 +11056,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <junction x="86.36" y="76.2"/>
 <pinref part="U2" gate="A" pin="CAP+"/>
 <wire x1="86.36" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -11058,6 +11069,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="91.44" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="60.96" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <junction x="73.66" y="76.2"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -11147,6 +11159,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="17.78" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-12.7" x2="17.78" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="17.78" y="-12.7"/>
+<pinref part="C12" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -11159,6 +11172,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="5.08" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-12.7" x2="5.08" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="5.08" y="-12.7"/>
+<pinref part="C12" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -11200,6 +11214,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <junction x="86.36" y="12.7"/>
 <pinref part="U4" gate="A" pin="CAP+"/>
 <wire x1="86.36" y1="0" x2="91.44" y2="0" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11212,6 +11227,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="91.44" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-2.54" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
 <junction x="73.66" y="12.7"/>
+<pinref part="C14" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$18" class="0">
